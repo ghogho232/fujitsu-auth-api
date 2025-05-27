@@ -1,5 +1,5 @@
 // controllers/userController.js - 사용자 관련 비즈니스 로직
-const store = require('../models/userStore.js');
+const store = require('../models/userStore');
 const { parseBasicAuth } = require('../utils/auth');
 
 // 회원가입 처리
