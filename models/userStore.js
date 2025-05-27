@@ -1,5 +1,11 @@
-// models/userStore.js - 사용자 정보 저장소 (메모리 기반)
+
 const users = {}; // 메모리 기반 저장소
+
+users["TaroYamada"] = {
+  password: "PaSSw4dTY",
+  nickname: "たろー",
+  comment: "僕は元気です"
+};
 
 module.exports = {
   // 사용자 정보 가져오기
